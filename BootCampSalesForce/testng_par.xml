@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Suite">
+  <test thread-count="2" parallel="classes" name="Test">
+    <classes>
+      <class name="com.servicenow.testcases.TC002_CreateLegalEntity"/>
+      <class name="com.servicenow.testcases.TC001_VerifyLogin"/>
+      <class name="com.servicenow.testcases.TC003_DeleteLegalEntity"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

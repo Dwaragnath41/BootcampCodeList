@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite-seq">
+	<test thread-count="5" name="Test-seq">
+		<classes>
+			<class name="com.servicenow.testcases.TC001_VerifyLogin" />
+			<class name="com.servicenow.testcases.TC002_CreateNewCase" />
+			<class name="com.servicenow.testcases.TC003_EditCase" />
+		</classes>
+	</test> <!-- Test-seq -->
+</suite> <!-- Suite-seq -->
